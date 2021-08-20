@@ -16,7 +16,7 @@ namespace SendGMail
             var fromAddress = new MailAddress("sergey.davidovich@gmail.com", "From Sergey D");
             var toAddress = new MailAddress("writesd@hotmail.com", "To SD");
 
-            const string fromPassword = "**********"; // Insert your password here
+            const string fromPassword = "ksenjuk57NBgo"; // Insert your GMail password here
             const string subject = "Test Subject";
 
             string body = $"Sended at: {DateTime.Now.ToUniversalTime()}";
