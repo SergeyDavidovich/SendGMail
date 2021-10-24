@@ -15,7 +15,7 @@ namespace SendGMail
             var mailService = new SendGMailService(
                 "sergey.davidovich@gmail.com",
                 "writesd@hotmail.com",
-                "ksenjuk57NBgo",
+                "",
                 "Test Subject",
                 $"Sended at: {DateTime.Now.ToUniversalTime()} via GMail"
                 );
